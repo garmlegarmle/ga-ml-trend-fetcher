@@ -51,4 +51,6 @@ scripts\build_windows.bat
 ## Notes
 
 - Unsigned binaries will show macOS Gatekeeper or Windows SmartScreen warnings.
+- On macOS, first launch may be blocked because the current `.app` is unsigned and not notarized yet.
+  Use `Control-click -> Open`, or allow it once from `System Settings -> Privacy & Security`.
 - The downloader only writes a local CSV. It does not upload the file anywhere.
