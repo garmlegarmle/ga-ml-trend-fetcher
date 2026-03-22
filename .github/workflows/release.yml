@@ -14,7 +14,7 @@ jobs:
       matrix:
         include:
           - os: macos-latest
-            build_command: ./scripts/build_macos.sh
+            build_command: bash ./scripts/build_macos.sh
             asset_path: dist/GA-ML-TrendFetcher-macos.zip
           - os: windows-latest
             build_command: scripts\build_windows.bat
